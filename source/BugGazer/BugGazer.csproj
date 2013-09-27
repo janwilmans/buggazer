@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -156,7 +157,7 @@
     <Compile Include="Settings.cs" />
     <Compile Include="Session.cs" />
     <Compile Include="Storage\UTF8Storage.cs" />
-    <Compile Include="UTF8String.cs" />
+    <Compile Include="Storage\UTF8String.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="art\up.png" />
