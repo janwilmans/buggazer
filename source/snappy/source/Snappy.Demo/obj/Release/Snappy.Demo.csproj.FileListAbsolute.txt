@@ -1,0 +1,1 @@
+C:\temp\snappy\source\Snappy.Demo\obj\Release\ResolveAssemblyReference.cache
