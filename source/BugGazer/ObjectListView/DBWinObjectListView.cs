@@ -16,6 +16,7 @@ namespace BugGazer
         public DBWinObjectListView(IStorage<StoredLine> storage)
         {
             InitializeComponent();
+            DoubleBuffered = true;
             mDataSource = new LineObjectDataSource(listview, storage);
             listview.VirtualListDataSource = mDataSource;
 
