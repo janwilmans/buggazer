@@ -89,7 +89,22 @@ namespace BugGazer
             DockContent content2 = (DockContent)mBugGazerControl2;
             content2.Text = "Feibbox.exe";
             content2.Show(this.dockPanel1);
+            Resize += new EventHandler(MainForm_Resize);     
 
+        }
+
+        void MainForm_Resize(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Minimized)
+            {
+                this.Hide();
+            }
+        }
+
+        private void notifyIcon_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            this.Show();
+            this.WindowState = FormWindowState.Normal;
         }
 
         public void Initialize(Settings settings)
