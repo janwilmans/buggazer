@@ -21,8 +21,11 @@ using System.IO.Compression;
     //    THREAD_PRIORITY_TIME_CRITICAL
     //    );
 
-    // maybe integrate this somehow:
+    // about .net4 (the .net4 debugger attaches as a native debugger, so will capture output traces)
     // http://stackoverflow.com/questions/4429254/how-to-make-debugview-work-under-net-4
+
+    // create a plugin for visual studio to run as plugin (solves the .net4 problem)
+    // http://visualstudiogallery.msdn.microsoft.com/f4d9c2b5-d6d7-4543-a7a5-2d7ebabc2496
 
 namespace BugGazer
 {

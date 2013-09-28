@@ -9,6 +9,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
 using WeifenLuo.WinFormsUI.Docking;
+using System.Drawing.Drawing2D;
 
 namespace BugGazer
 {
@@ -27,6 +28,8 @@ namespace BugGazer
             MyExtensions.SetDoubleBuffered(this.listView, true);
 
             listView.DrawSubItem += OnListViewDrawSubItem;
+            listView.DrawColumnHeader += listView_DrawColumnHeader;
+            listView.DrawItem += listView_DrawItem;
 
             Controller.WriteLine("Using C# ListView in VirtualMode.");
             this.listView.VirtualMode = true;
@@ -224,13 +227,42 @@ namespace BugGazer
 
         #endregion
 
+        // Draws column headers. 
+        void listView_DrawColumnHeader(object sender, DrawListViewColumnHeaderEventArgs e)
+        {
+            e.DrawDefault = true;
+        }
+
+        // Draws the backgrounds for entire ListView items. 
+        void listView_DrawItem(object sender, DrawListViewItemEventArgs e)
+        {
+            if ((e.State & ListViewItemStates.Selected) != ListViewItemStates.Selected) return;
+            using (LinearGradientBrush brush = new LinearGradientBrush(e.Bounds, Color.Beige,Color.Red, LinearGradientMode.Vertical))
+            {
+                e.Graphics.FillRectangle(brush, e.Bounds);
+            }
+        }
+
         private void OnListViewDrawSubItem(object sender, DrawListViewSubItemEventArgs e)
         {
-            // set OwnerDraw = true to enable this
-            if (e.Item.Selected)
+            //Controller.WriteLine("e.SubItem.Name: {0}", e.SubItem.Text);
+
+            if (!e.SubItem.Text.Contains("23"))
             {
-                e.Graphics.FillRectangle(SystemBrushes.Highlight, e.Bounds);
+                e.DrawDefault = true;
+                return;
             }
+
+            //e.DrawBackground();
+            if ((e.ItemState & ListViewItemStates.Selected) == ListViewItemStates.Selected)
+            {
+                //
+            }
+
+            Rectangle b = new Rectangle(e.Bounds.Left + e.Bounds.Width / 4, e.Bounds.Top, e.Bounds.Width / 2, e.Bounds.Height);
+            e.Graphics.FillRectangle(SystemBrushes.Highlight, b);
+
+            e.DrawText(TextFormatFlags.Default);
         }
     }
 
@@ -335,5 +367,7 @@ namespace BugGazer
             styles |= exStyle;
             SendMessage(control.Handle, (int)LVM.LVM_SETEXTENDEDLISTVIEWSTYLE, 0, (int)styles);
         }
+
+        // todo: see BugListView (WM_ERASEBKGND trick)
     }
 }
