@@ -1,6 +1,10 @@
 syntax: glob
+obj/
+bin/
 Debug/
 Release/
 *.ncb
 *.user
 *.suo
+*.sdf
+*.ipch
