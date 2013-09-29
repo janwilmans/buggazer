@@ -45,6 +45,11 @@ using WeifenLuo.WinFormsUI.Docking;
 //- first try to intern the entire string? (not done: measure performance, not applicable, cannot determine whether inline succeeds)
 //-
 
+// todo features:
+// - option to filter empty lines from the input
+// - option to split messages that contain new characters ('\n' or '\r')
+// - 
+
 //http://stackoverflow.com/questions/5055015/issue-capturing-global-session-0-outputdebugstring-messages-via-win32-api
 //http://research.microsoft.com/en-us/projects/bio/mbf.aspx
 //http://social.msdn.microsoft.com/Forums/en-US/f743bc52-0281-4c2f-8971-97b207b57cf7/merge-strings-and-remove-overlap
@@ -488,6 +493,12 @@ namespace BugGazer
         private void statisticsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             mBugGazerControl.DumpStatistics();
+        }
+
+        private void filterMenu_Click(object sender, EventArgs e)
+        {
+            Filters filters = new Filters();
+            filters.Show();
         }
 
         /*

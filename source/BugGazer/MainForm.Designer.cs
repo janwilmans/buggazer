@@ -207,6 +207,7 @@
             this.filterMenu.Name = "filterMenu";
             this.filterMenu.Size = new System.Drawing.Size(45, 20);
             this.filterMenu.Text = "&Filter";
+            this.filterMenu.Click += new System.EventHandler(this.filterMenu_Click);
             // 
             // viewMenu
             // 

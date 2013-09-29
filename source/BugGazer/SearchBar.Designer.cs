@@ -43,7 +43,6 @@
             // 
             // downButton
             // 
-            this.downButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.downButton.Image = global::BugGazer.Properties.Resources.down;
             this.downButton.Location = new System.Drawing.Point(200, 1);
             this.downButton.Name = "downButton";
@@ -55,7 +54,6 @@
             // 
             // upButton
             // 
-            this.upButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.upButton.Image = global::BugGazer.Properties.Resources.up;
             this.upButton.Location = new System.Drawing.Point(174, 1);
             this.upButton.Name = "upButton";
