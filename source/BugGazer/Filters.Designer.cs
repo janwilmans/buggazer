@@ -79,7 +79,7 @@
             // addColorButton
             // 
             this.addColorButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.addColorButton.Location = new System.Drawing.Point(274, 110);
+            this.addColorButton.Location = new System.Drawing.Point(274, 119);
             this.addColorButton.Name = "addColorButton";
             this.addColorButton.Size = new System.Drawing.Size(75, 23);
             this.addColorButton.TabIndex = 7;
@@ -89,7 +89,7 @@
             // removeColorButton
             // 
             this.removeColorButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.removeColorButton.Location = new System.Drawing.Point(274, 81);
+            this.removeColorButton.Location = new System.Drawing.Point(274, 90);
             this.removeColorButton.Name = "removeColorButton";
             this.removeColorButton.Size = new System.Drawing.Size(75, 23);
             this.removeColorButton.TabIndex = 6;
@@ -99,7 +99,7 @@
             // addFilterActionButton
             // 
             this.addFilterActionButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.addFilterActionButton.Location = new System.Drawing.Point(653, 174);
+            this.addFilterActionButton.Location = new System.Drawing.Point(653, 188);
             this.addFilterActionButton.Name = "addFilterActionButton";
             this.addFilterActionButton.Size = new System.Drawing.Size(75, 23);
             this.addFilterActionButton.TabIndex = 10;
@@ -110,7 +110,7 @@
             // removeFilterActionButton
             // 
             this.removeFilterActionButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.removeFilterActionButton.Location = new System.Drawing.Point(653, 130);
+            this.removeFilterActionButton.Location = new System.Drawing.Point(653, 144);
             this.removeFilterActionButton.Name = "removeFilterActionButton";
             this.removeFilterActionButton.Size = new System.Drawing.Size(75, 23);
             this.removeFilterActionButton.TabIndex = 9;
@@ -131,7 +131,7 @@
             this.groupColors.Controls.Add(this.removeColorButton);
             this.groupColors.Location = new System.Drawing.Point(4, 3);
             this.groupColors.Name = "groupColors";
-            this.groupColors.Size = new System.Drawing.Size(363, 158);
+            this.groupColors.Size = new System.Drawing.Size(363, 167);
             this.groupColors.TabIndex = 0;
             this.groupColors.TabStop = false;
             this.groupColors.Text = "Colors";
@@ -140,7 +140,7 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 136);
+            this.label1.Location = new System.Drawing.Point(6, 145);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(152, 13);
             this.label1.TabIndex = 12;
@@ -149,7 +149,7 @@
             // fgColorButton
             // 
             this.fgColorButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.fgColorButton.Location = new System.Drawing.Point(274, 52);
+            this.fgColorButton.Location = new System.Drawing.Point(274, 61);
             this.fgColorButton.Name = "fgColorButton";
             this.fgColorButton.Size = new System.Drawing.Size(75, 23);
             this.fgColorButton.TabIndex = 10;
@@ -159,7 +159,7 @@
             // bgColorButton
             // 
             this.bgColorButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.bgColorButton.Location = new System.Drawing.Point(274, 23);
+            this.bgColorButton.Location = new System.Drawing.Point(274, 32);
             this.bgColorButton.Name = "bgColorButton";
             this.bgColorButton.Size = new System.Drawing.Size(75, 23);
             this.bgColorButton.TabIndex = 9;
@@ -180,7 +180,7 @@
             this.colorListView.HideSelection = false;
             this.colorListView.Location = new System.Drawing.Point(6, 19);
             this.colorListView.Name = "colorListView";
-            this.colorListView.Size = new System.Drawing.Size(262, 114);
+            this.colorListView.Size = new System.Drawing.Size(262, 123);
             this.colorListView.TabIndex = 8;
             this.colorListView.UseCompatibleStateImageBehavior = false;
             this.colorListView.View = System.Windows.Forms.View.Details;
@@ -212,7 +212,7 @@
             this.groupFilters.Controls.Add(this.removeFilterActionButton);
             this.groupFilters.Location = new System.Drawing.Point(3, 3);
             this.groupFilters.Name = "groupFilters";
-            this.groupFilters.Size = new System.Drawing.Size(739, 203);
+            this.groupFilters.Size = new System.Drawing.Size(739, 217);
             this.groupFilters.TabIndex = 0;
             this.groupFilters.TabStop = false;
             this.groupFilters.Text = "Filter, track and colorize";
@@ -241,7 +241,7 @@
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 156);
+            this.label3.Location = new System.Drawing.Point(9, 170);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 13);
             this.label3.TabIndex = 17;
@@ -251,7 +251,7 @@
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(486, 158);
+            this.label2.Location = new System.Drawing.Point(486, 172);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 16;
@@ -262,7 +262,7 @@
             this.colorDropBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.colorDropBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.colorDropBox.FormattingEnabled = true;
-            this.colorDropBox.Location = new System.Drawing.Point(489, 176);
+            this.colorDropBox.Location = new System.Drawing.Point(489, 190);
             this.colorDropBox.Name = "colorDropBox";
             this.colorDropBox.Size = new System.Drawing.Size(158, 21);
             this.colorDropBox.TabIndex = 15;
@@ -271,7 +271,7 @@
             // 
             this.FilterLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.FilterLabel.AutoSize = true;
-            this.FilterLabel.Location = new System.Drawing.Point(322, 158);
+            this.FilterLabel.Location = new System.Drawing.Point(322, 172);
             this.FilterLabel.Name = "FilterLabel";
             this.FilterLabel.Size = new System.Drawing.Size(40, 13);
             this.FilterLabel.TabIndex = 14;
@@ -282,7 +282,7 @@
             this.actionDropBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.actionDropBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.actionDropBox.FormattingEnabled = true;
-            this.actionDropBox.Location = new System.Drawing.Point(325, 176);
+            this.actionDropBox.Location = new System.Drawing.Point(325, 190);
             this.actionDropBox.Name = "actionDropBox";
             this.actionDropBox.Size = new System.Drawing.Size(158, 21);
             this.actionDropBox.TabIndex = 13;
@@ -293,7 +293,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.patternDropbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.patternDropbox.FormattingEnabled = true;
-            this.patternDropbox.Location = new System.Drawing.Point(12, 176);
+            this.patternDropbox.Location = new System.Drawing.Point(12, 190);
             this.patternDropbox.Name = "patternDropbox";
             this.patternDropbox.Size = new System.Drawing.Size(307, 21);
             this.patternDropbox.TabIndex = 12;
@@ -316,7 +316,7 @@
             this.filterActionListView.HideSelection = false;
             this.filterActionListView.Location = new System.Drawing.Point(12, 19);
             this.filterActionListView.Name = "filterActionListView";
-            this.filterActionListView.Size = new System.Drawing.Size(635, 132);
+            this.filterActionListView.Size = new System.Drawing.Size(635, 146);
             this.filterActionListView.TabIndex = 11;
             this.filterActionListView.UseCompatibleStateImageBehavior = false;
             this.filterActionListView.View = System.Windows.Forms.View.Details;
@@ -352,7 +352,7 @@
             // removePatternButton
             // 
             this.removePatternButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.removePatternButton.Location = new System.Drawing.Point(274, 81);
+            this.removePatternButton.Location = new System.Drawing.Point(274, 90);
             this.removePatternButton.Name = "removePatternButton";
             this.removePatternButton.Size = new System.Drawing.Size(75, 23);
             this.removePatternButton.TabIndex = 3;
@@ -373,7 +373,7 @@
             this.patternListView.HideSelection = false;
             this.patternListView.Location = new System.Drawing.Point(6, 19);
             this.patternListView.Name = "patternListView";
-            this.patternListView.Size = new System.Drawing.Size(262, 114);
+            this.patternListView.Size = new System.Drawing.Size(262, 123);
             this.patternListView.TabIndex = 11;
             this.patternListView.UseCompatibleStateImageBehavior = false;
             this.patternListView.View = System.Windows.Forms.View.Details;
@@ -391,7 +391,7 @@
             // addPatternButton
             // 
             this.addPatternButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.addPatternButton.Location = new System.Drawing.Point(274, 110);
+            this.addPatternButton.Location = new System.Drawing.Point(274, 119);
             this.addPatternButton.Name = "addPatternButton";
             this.addPatternButton.Size = new System.Drawing.Size(75, 23);
             this.addPatternButton.TabIndex = 4;
@@ -410,7 +410,7 @@
             this.groupPatterns.Controls.Add(this.removePatternButton);
             this.groupPatterns.Location = new System.Drawing.Point(3, 3);
             this.groupPatterns.Name = "groupPatterns";
-            this.groupPatterns.Size = new System.Drawing.Size(363, 158);
+            this.groupPatterns.Size = new System.Drawing.Size(363, 167);
             this.groupPatterns.TabIndex = 12;
             this.groupPatterns.TabStop = false;
             this.groupPatterns.Text = "Patterns";
@@ -419,7 +419,7 @@
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(9, 136);
+            this.label4.Location = new System.Drawing.Point(9, 145);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(305, 13);
             this.label4.TabIndex = 13;
@@ -428,7 +428,7 @@
             // closeButton
             // 
             this.closeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.closeButton.Location = new System.Drawing.Point(656, 212);
+            this.closeButton.Location = new System.Drawing.Point(656, 226);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 23);
             this.closeButton.TabIndex = 13;
@@ -449,7 +449,7 @@
             this.tableLayoutRows.RowCount = 2;
             this.tableLayoutRows.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.tableLayoutRows.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tableLayoutRows.Size = new System.Drawing.Size(752, 411);
+            this.tableLayoutRows.Size = new System.Drawing.Size(752, 434);
             this.tableLayoutRows.TabIndex = 14;
             // 
             // tableLayoutColomns
@@ -465,7 +465,7 @@
             this.tableLayoutColomns.Name = "tableLayoutColomns";
             this.tableLayoutColomns.RowCount = 1;
             this.tableLayoutColomns.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutColomns.Size = new System.Drawing.Size(752, 164);
+            this.tableLayoutColomns.Size = new System.Drawing.Size(752, 173);
             this.tableLayoutColomns.TabIndex = 0;
             // 
             // panelUpperLeft
@@ -475,7 +475,7 @@
             this.panelUpperLeft.Location = new System.Drawing.Point(0, 0);
             this.panelUpperLeft.Margin = new System.Windows.Forms.Padding(0);
             this.panelUpperLeft.Name = "panelUpperLeft";
-            this.panelUpperLeft.Size = new System.Drawing.Size(376, 164);
+            this.panelUpperLeft.Size = new System.Drawing.Size(376, 173);
             this.panelUpperLeft.TabIndex = 0;
             // 
             // panelUpperRight
@@ -485,7 +485,7 @@
             this.panelUpperRight.Location = new System.Drawing.Point(376, 0);
             this.panelUpperRight.Margin = new System.Windows.Forms.Padding(0);
             this.panelUpperRight.Name = "panelUpperRight";
-            this.panelUpperRight.Size = new System.Drawing.Size(376, 164);
+            this.panelUpperRight.Size = new System.Drawing.Size(376, 173);
             this.panelUpperRight.TabIndex = 1;
             // 
             // panelBottom
@@ -493,17 +493,17 @@
             this.panelBottom.Controls.Add(this.groupFilters);
             this.panelBottom.Controls.Add(this.closeButton);
             this.panelBottom.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelBottom.Location = new System.Drawing.Point(0, 164);
+            this.panelBottom.Location = new System.Drawing.Point(0, 173);
             this.panelBottom.Margin = new System.Windows.Forms.Padding(0);
             this.panelBottom.Name = "panelBottom";
-            this.panelBottom.Size = new System.Drawing.Size(752, 247);
+            this.panelBottom.Size = new System.Drawing.Size(752, 261);
             this.panelBottom.TabIndex = 1;
             // 
             // Filters
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(752, 411);
+            this.ClientSize = new System.Drawing.Size(752, 434);
             this.ControlBox = false;
             this.Controls.Add(this.tableLayoutRows);
             this.MinimumSize = new System.Drawing.Size(768, 450);
@@ -511,7 +511,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Filters";
             this.groupColors.ResumeLayout(false);
             this.groupColors.PerformLayout();

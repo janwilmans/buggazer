@@ -11,8 +11,8 @@ namespace BugGazer
         public bool CaptureWin32;
         public bool CaptureGlobalWin32;
         public bool ShowGridLines;
-        public bool VisualStyle;
         public bool ResolveProcessName;
         public bool ResolveBrickboxName;
+        public bool MinimizeToTray;
     }
 }

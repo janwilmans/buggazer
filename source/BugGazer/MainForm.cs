@@ -235,7 +235,6 @@ namespace BugGazer
             captureWin32GlobalMenuItem.Checked = mSettings.CaptureGlobalWin32;
             showGridLinesMenuItem.Checked = mSettings.ShowGridLines;
             autoScrollMenuItem.Checked = mSettings.AutoScrollDown;
-            enableVisualStyleMenuItem.Checked = mSettings.VisualStyle;
             resolveProcessNameMenuItem.Checked = mSettings.ResolveProcessName;
             resolveBrickBoxesToolStripMenuItem.Checked = mSettings.ResolveBrickboxName;
 
@@ -456,14 +455,6 @@ namespace BugGazer
         private void exitMenuItem_Click(object sender, EventArgs e)
         {
             Close();
-        }
-
-        private void enableVisualStyleToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            mSettings.VisualStyle = enableVisualStyleMenuItem.Checked;
-            mSettings.SerializeToFile();
-            MessageBox.Show("This setting will take effect the next time you start this application.",
-                Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void findPreviousMenuItem_Click(object sender, EventArgs e)

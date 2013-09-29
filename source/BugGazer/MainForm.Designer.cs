@@ -69,7 +69,6 @@
             this.fontMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colorsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.enableVisualStyleMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.enableSoundsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hideWhenMinimizedMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -220,8 +219,7 @@
             this.toolStripSeparator1,
             this.fontMenuItem,
             this.colorsMenuItem,
-            this.toolStripSeparator4,
-            this.enableVisualStyleMenuItem});
+            this.toolStripSeparator4});
             this.viewMenu.Name = "viewMenu";
             this.viewMenu.Size = new System.Drawing.Size(44, 20);
             this.viewMenu.Text = "&View";
@@ -282,14 +280,6 @@
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
             this.toolStripSeparator4.Size = new System.Drawing.Size(294, 6);
-            // 
-            // enableVisualStyleMenuItem
-            // 
-            this.enableVisualStyleMenuItem.CheckOnClick = true;
-            this.enableVisualStyleMenuItem.Name = "enableVisualStyleMenuItem";
-            this.enableVisualStyleMenuItem.Size = new System.Drawing.Size(297, 22);
-            this.enableVisualStyleMenuItem.Text = "Enable Visual Style";
-            this.enableVisualStyleMenuItem.Click += new System.EventHandler(this.enableVisualStyleToolStripMenuItem_Click);
             // 
             // optionsMenu
             // 
@@ -518,7 +508,6 @@
         private System.Windows.Forms.ToolStripMenuItem openConfigDirectoryMenuItem;
         private System.Windows.Forms.ToolStripMenuItem openDebugConsoleMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-        private System.Windows.Forms.ToolStripMenuItem enableVisualStyleMenuItem;
         private System.Windows.Forms.Label memUsageLabel;
         private SearchBar searchBar;
         private System.Windows.Forms.ToolStripMenuItem statisticsToolStripMenuItem;

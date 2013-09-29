@@ -14,10 +14,8 @@ namespace BugGazer
         static void Main()
         {
             Settings settings = Settings.DeserializeFromConfiguration();
-            if (settings.VisualStyle)
-            {
-                Application.EnableVisualStyles();
-            }
+
+            Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(true);
 
             MainForm form = new MainForm();
