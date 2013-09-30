@@ -94,8 +94,7 @@ namespace BugGazer
             DockContent content2 = (DockContent)mBugGazerControl2;
             content2.Text = "Feibbox.exe";
             content2.Show(this.dockPanel1);
-            Resize += new EventHandler(MainForm_Resize);     
-
+            Resize += new EventHandler(MainForm_Resize);
         }
 
         void MainForm_Resize(object sender, EventArgs e)
@@ -215,6 +214,12 @@ namespace BugGazer
                     default:
                         break;
                 }
+            }
+
+            // F12 (hide menu)
+            if (e.KeyCode == Keys.F12)
+            {
+                menuStrip.Visible = !menuStrip.Visible;
             }
         }
 

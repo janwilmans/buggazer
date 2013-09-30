@@ -162,6 +162,7 @@ namespace BugGazer
 
         public void ScrollToIndex(int index, bool center)
         {
+            if (index < 0) return;
             if (index >= mStorage.Count)
             {
                 Controller.WriteLine("ScrollToIndex: {0} index not found!", index);
