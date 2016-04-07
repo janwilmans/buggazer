@@ -1,5 +1,4 @@
 # buggazer
-Buggazer is a C# based dbgview-type application, superseded by DebugView++ but still here for reference 
 
 This project is now nolonger being developed, all feature of BugGazer (and more) will be implemented in DebugView++, see: https://github.com/djeedjay/DebugViewPP
 
