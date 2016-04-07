@@ -16,3 +16,5 @@ Compressed memory buffers using Google Snappy based compression, which, on avera
 Fast responsive UI even up to 2^32 lines in buffer
 Minimal delay of the traced application, compared to debugview, a factor of 10 smaller.
 responsive UI even with 100ths of incoming messages/second
+
+(automatically migrated from https://code.google.com/archive/p/buggazer/)
